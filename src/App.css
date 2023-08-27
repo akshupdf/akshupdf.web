@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&family=Ubuntu:wght@400&display=swap');
+
+
+
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+
+.slide {
+    transform: scale(0.7);
+    transition: transform 300ms;
+    opacity: -1;
+  }
+  
+  .slideWrapper {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .prevArrow {
+    position: absolute;
+    top: 27%;
+    right: 54vh;
+    z-index: 100;
+    cursor: pointer;
+    font-size: 2rem;
+    color: white;
+  }
+  
+  .nextArrow {
+    position: absolute;
+    top: 40%;
+    right: 52vh;
+    z-index: 100;
+    cursor: pointer;
+    font-size: 2rem;
+    color: white;
+  }
+
+  .swiper-slide { 
+    display: flex !important;
+    justify-content: center;
+  }
+
+  .swiper-slide-shadow-left {
+    background-image: none !important;
+  }
+  .swiper-slide-shadow-right {
+    background-image: none !important;
+  }
