@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import logo from '../images/logo4.png'
+import { Link } from "react-router-dom"
 
 
 function Nav () {
@@ -31,42 +32,49 @@ function Nav () {
         <div className="menu w-full lg:block flex-grow  lg:items-center lg:w-auto lg:px-3 px-8">
         {
             show && <div className="text-md font-bold  lg:flex-grow text-right fixed bg-black text-white p-4">
-                <a href="/"
+                {/* <a href="/"
                    className="block mt-4 lg:inline-block lg:mt-0 mr-2">
                     Home
-                </a>
-                <a href="/pricing"
+                </a> */}
+
+                <Link to="/" className="block mt-4 lg:inline-block lg:mt-0 mr-2">Home</Link>
+                <Link to="/pricing" className="block mt-4 lg:inline-block lg:mt-0 mr-2">Pricings</Link>
+                <Link to="/about" className="block mt-4 lg:inline-block lg:mt-0 mr-2">About Us</Link>
+                <Link to="/contact" className="block mt-4 lg:inline-block lg:mt-0 mr-2">Contact Us</Link>
+                {/* <a href="/pricing"
                    className=" block mt-4 lg:inline-block lg:mt-0 mr-2">
                     Pricings
-                </a>
-                <a href="/about"
+                </a> */}
+                {/* <a href="/about"
                    className="block mt-4 lg:inline-block lg:mt-0  mr-2">
                     About Us
                 </a>
                 <a href="/contact"
                    className="block mt-4 lg:inline-block lg:mt-0 mr-2">
                     Contact Us
-                </a>
+                </a> */}
             </div>
         }
             <div className='lg:flex sm:hidden'>
             <div className="text-md font-bold text-black lg:flex-grow text-right">
-                <a href="/"
+                {/* <a href="/"
                    className="block mt-4 lg:inline-block lg:mt-0 hover:text-white px-4 py-2 rounded hover:bg-black mr-2">
                     Home
                 </a>
+                
                 <a href="/pricing"
                    className=" block mt-4 lg:inline-block lg:mt-0 hover:text-white px-4 py-2 rounded hover:bg-black mr-2">
                     Pricings
-                </a>
-                <a href="/about"
+                </a> */}
+                {/* <a href="/about"
                    className="block mt-4 lg:inline-block lg:mt-0 hover:text-white px-4 py-2 rounded hover:bg-black mr-2">
                     About Us
-                </a>
-                <a href="/contact"
-                   className="block mt-4 lg:inline-block lg:mt-0 hover:text-white px-4 py-2 rounded hover:bg-black mr-2">
-                    Contact Us
-                </a>
+                </a> */}
+                <li className="block mt-4 lg:inline-block lg:mt-0 hover:text-white px-4 py-2 rounded hover:bg-black mr-2"><Link to="/" >Home</Link></li> 
+                <li className="block mt-4 lg:inline-block lg:mt-0 hover:text-white px-4 py-2 rounded hover:bg-black mr-2"><Link to="/pricing" >Pricings</Link></li> 
+                <li className="block mt-4 lg:inline-block lg:mt-0 hover:text-white px-4 py-2 rounded hover:bg-black mr-2"><Link to="/about" >About Us</Link></li> 
+               <li className="block mt-4 lg:inline-block lg:mt-0 hover:text-white px-4 py-2 rounded hover:bg-black mr-2"><Link to="/contact" >Contact Us</Link></li> 
+              
             </div>
             </div>
             

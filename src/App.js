@@ -18,8 +18,9 @@ function App() {
 
 
     <div className="text-black h-screen ">
-       <Nav />
+       
       <BrowserRouter>
+      <Nav />
       <Routes>
         <Route  path='/' element={<Home />} />
         <Route path='/nav' element={<Nav />} />
@@ -31,8 +32,9 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/pricing" element={<Pricings />} />
       </Routes>
-      </BrowserRouter>
       <Footer />
+      </BrowserRouter>
+      
      
     </div>
   );
