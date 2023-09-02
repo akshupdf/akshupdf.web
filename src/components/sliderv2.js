@@ -54,7 +54,7 @@ return (
         className="h-[42rem] text-xl mx-auto w-[100%] flex justify-center swiper-slide "
       >
         <SwiperSlide >
-          <img src={slide_image_1} alt="slide_image" className='w-[37rem] h-[42rem] border-2  object-cover p-10' />
+          <img src={slide_image_8} alt="slide_image" className='w-[57rem] h-[42rem] border-2  object-cover p-10' />
         </SwiperSlide>
         {/* <SwiperSlide>
           <img src={slide_image_2} alt="slide_image" className='w-[55rem] h-[42rem] border-2 object-cover'/>
@@ -75,7 +75,7 @@ return (
           <img src={slide_image_7} alt="slide_image" className='w-[67rem] h-[42rem] border-2 object-cover p-10'/>
         </SwiperSlide> */}
         <SwiperSlide>
-          <img src={slide_image_8} alt="slide_image" className='w-[57rem] h-[42rem] border-2 object-cover p-10'/>
+          <img src={slide_image_1} alt="slide_image" className='w-[37rem] h-[42rem] border-2 object-cover p-10'/>
         </SwiperSlide>
         <SwiperSlide>
           <img src={slide_image_9} alt="slide_image" className='w-[57rem] h-[42rem] border-2 object-cover p-10'/>

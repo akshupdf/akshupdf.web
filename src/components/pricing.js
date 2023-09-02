@@ -12,8 +12,8 @@
   },{
     name : 'Advance',
     price : "1500  " ,
-    includes: ["Multiple pages for sections like About, Services, Portfolio, Contact, etc. ",
-    "Enhanced design and styling options to create a unique look.","A gallery or portfolio section to showcase the user's work or projects.","Technical support",]
+    includes: ["Multiple pages for sections like About, Services, Portfolio, Contact, etc.",
+    "Enhanced design and styling options to create a unique look.","A gallery or portfolio section to showcase the user's work or projects.","Technical support"]
 
   },{
     name : 'Super Advance',

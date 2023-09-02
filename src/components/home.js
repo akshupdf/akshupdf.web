@@ -1,6 +1,7 @@
 import React from "react";
 import web from '../images/web.gif'
 import port from '../images/portfolio.gif'
+import port1 from '../images/port1.gif'
 import { OrbitControls } from "@react-three/drei";
 import { Canvas } from '@react-three/fiber';
 // import Cube from "./Cube";
@@ -42,7 +43,7 @@ function Home () {
             </Suspense>
           </Canvas>
              */}
-             <h1 className="text-xl italic text-center"> Elevate Your Online Presence!</h1>
+             <h1 className="text-4xl italic text-center"> Elevate Your Online Presence!</h1>
 
              <Canvas camera={{position : [4,0,5] ,fov: 10}}>
   
@@ -65,7 +66,7 @@ function Home () {
             </div>
             <div className='lg:flex sm:flex-wrap mt-[12vh] '>
                 <div className='lg:w-[80vh] lg:h-[70vh] sm:w-50 sm:h-80 sm:mb-10 shadow-xl  mx-auto mt-10 p-10 rounded-xl italic sm:overflow-auto lg:overflow-hidden'>
-                <h1 className="text-xl">
+                <h1 className="text-xl ">
 Are you a seasoned professional looking to showcase your skills, expertise, and 
 accomplishments to the world? Look no further than our cutting-edge profile website
  service tailored exclusively for professionals like you! Your online presence matters
@@ -88,11 +89,11 @@ accomplishments to the world? Look no further than our cutting-edge profile webs
 
                 </div>
                 <div>
-                    <img src={port} alt="" className="lg:flex sm:hidden"/>
+                    <img src={port1} alt="" className="lg:flex sm:hidden"/>
                 </div>
             </div>
             <div className='container mt-[15vh] sm:hidden lg:grid '>
-                <h1 className='w-[40vh] h-[10vh] mx-auto text-5xl font-bold sm:justify-center'>Templates</h1>
+                <h1 className='w-[40vh] h-[10vh] mx-auto text-5xl font-bold sm:justify-center italic underline'>Templates</h1>
         <ImageSliderV2 />
       </div>
       <div className="lg:hidden sm:flex-shrink w-50 h-80 overflow-auto text-center">
