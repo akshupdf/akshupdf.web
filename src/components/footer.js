@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import logo from '../images/logo4.png'
 
 export function Footer () {
@@ -21,10 +22,10 @@ export function Footer () {
                 <h2 className="mb-6 text-sm font-semibold text-black uppercase ">RESOURCES</h2>
                 <ul className="text-black ">
                     <li className="mb-4">
-                        <a href="/about" className="hover:underline">About Us</a>
+                        <Link to="/about" className="hover:underline">About Us</Link>
                     </li>
                     <li>
-                        <a href="/contact" className="hover:underline">Contact Us</a>
+                    <Link to="/contact" className="hover:underline">Contact Us</Link>s
                     </li>
                 </ul>
             </div>
