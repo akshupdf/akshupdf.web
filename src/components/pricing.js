@@ -4,7 +4,7 @@
   let data = [{
     name : 'Basic',
     price : "500  " ,
-    includes:["A single page that includes basic information about the user, such as their name, contact details, and a brief bio.",
+    includes:["A single page that includes basic information about the user, such as their name, contact details, and a brief bio."
     ,"A portfolio section to showcase the user's work or projects.",
     "Technical support"],
     intro : "The basic package is designed for users who need a simple online presence. Here are some features you might consider:"
@@ -27,7 +27,7 @@
   function Pricings() {
     return (
         <div className="lg:flex mx-auto sm:grid ">{
-        data.map( data => {
+        data.map( ( data )=> {
             return ( 
               <div className="w-[50vh] h-[65vh]   mx-auto text-center border-2 border-black text-white italic rounded-xl shadow-2xl p-4 bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 cursor-pointer hover:scale-125 transition duration-500 sm:flex-shrink sm:overflow-auto lg:overflow-hidden">
                 <div className="shadow-2xl bg-white text-black rounded-xl">
