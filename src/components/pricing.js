@@ -4,7 +4,7 @@
   let data = [{
     name : 'Basic',
     price : "500  " ,
-    includes: ["A single page that includes basic information about the user, such as their name, contact details, and a brief bio.",
+    includes:["A single page that includes basic information about the user, such as their name, contact details, and a brief bio.",
     ,"A portfolio section to showcase the user's work or projects.",
     "Technical support"],
     intro : "The basic package is designed for users who need a simple online presence. Here are some features you might consider:"

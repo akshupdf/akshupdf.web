@@ -1,6 +1,6 @@
 import React from "react";
 import web from '../images/web.gif'
-import port from '../images/portfolio.gif'
+// import port from '../images/portfolio.gif'
 import port1 from '../images/port1.gif'
 import { OrbitControls } from "@react-three/drei";
 import { Canvas } from '@react-three/fiber';

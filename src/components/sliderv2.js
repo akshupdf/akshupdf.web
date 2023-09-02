@@ -12,12 +12,12 @@ import 'swiper/css/navigation';
 import { EffectCoverflow, Pagination, Navigation } from 'swiper/modules';
 
 import slide_image_1 from '../images/img_1.jpg';
-import slide_image_2 from '../images/img_8.jpg';
+// import slide_image_2 from '../images/img_8.jpg';
 import slide_image_3 from '../images/img_3.jpg';
-import slide_image_4 from '../images/img_4.jpeg';
+// import slide_image_4 from '../images/img_4.jpeg';
 import slide_image_5 from '../images/img_5.jpg';
-import slide_image_6 from '../images/img_6.jpg';
-import slide_image_7 from '../images/img_7.jpg';
+// import slide_image_6 from '../images/img_6.jpg';
+// import slide_image_7 from '../images/img_7.jpg';
 import slide_image_8 from '../images/img_8.jpg';
 import slide_image_9 from '../images/img_9.jpg';
 import slide_image_10 from '../images/img_12.jpg';

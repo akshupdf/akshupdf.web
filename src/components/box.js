@@ -1,12 +1,12 @@
-import {Canvas, useFrame} from "@react-three/fiber"
-import React, { useRef, useState } from 'react'
+import {Canvas} from "@react-three/fiber"
+import React, { useRef } from 'react'
 import { createRoot } from 'react-dom/client'
 import {OrbitControls} from "@react-three/drei"
 
 function Boxa(props) {
 
-    const [hovered, hover] = useState(false)
-    const [clicked, click] = useState(false)
+    // const [hovered, hover] = useState(false)
+    // const [clicked, click] = useState(false)
     const ref = useRef()
 
     
