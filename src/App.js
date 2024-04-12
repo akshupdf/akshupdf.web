@@ -11,6 +11,8 @@ import Menu2 from './components/menuV2';
 import CubeWithWebSymbol from './components/worldsymbol';
 import Contact from './components/contact';
 import  Pricings from './components/pricing';
+import Template from './components/template1';
+import Template1 from './components/template2';
 
 
 function App() {
@@ -24,6 +26,8 @@ function App() {
       <Routes>
         <Route  path='/' element={<Home />} />
         <Route path='/nav' element={<Nav />} />
+        <Route path='/template1' element={<Template />} />
+        <Route path='/template2' element={<Template1 />} />
         <Route path="/box" element={<Boxa />} />
         <Route path="/about" element={<About />} />
         <Route path="/invoice" element={<Invoice />} />

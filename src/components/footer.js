@@ -25,7 +25,7 @@ export function Footer () {
                         <Link to="/about" className="hover:underline">About Us</Link>
                     </li>
                     <li>
-                    <Link to="/contact" className="hover:underline">Contact Us</Link>s
+                    <Link to="/contact" className="hover:underline">Contact Us</Link>
                     </li>
                 </ul>
             </div>

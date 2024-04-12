@@ -13,17 +13,19 @@ import { EffectCoverflow, Pagination, Navigation } from 'swiper/modules';
 
 import slide_image_1 from '../images/img_1.jpg';
 // import slide_image_2 from '../images/img_8.jpg';
-import slide_image_3 from '../images/img_3.jpg';
+// import slide_image_3 from '../images/img_3.jpg';
 // import slide_image_4 from '../images/img_4.jpeg';
 import slide_image_5 from '../images/img_5.jpg';
 // import slide_image_6 from '../images/img_6.jpg';
 // import slide_image_7 from '../images/img_7.jpg';
-import slide_image_8 from '../images/img_8.jpg';
+// import slide_image_8 from '../images/img_8.jpg';
 import slide_image_9 from '../images/img_9.jpg';
 import slide_image_10 from '../images/img_12.jpg';
 import slide_image_11 from '../images/img_13.jpg';
 import slide_image_12 from '../images/img_14.jpg';
 import slide_image_13 from '../images/img_16.jpg';
+import Template from './template1';
+import Template1 from './template2';
 
 const ImageSliderV2 = () => {
   
@@ -54,13 +56,13 @@ return (
         className="h-[42rem] text-xl mx-auto w-[100%] flex justify-center swiper-slide "
       >
         <SwiperSlide >
-          <img src={slide_image_8} alt="slide_image" className='w-[57rem] h-[42rem] border-2  object-cover p-10' />
+        <Template />
         </SwiperSlide>
         {/* <SwiperSlide>
           <img src={slide_image_2} alt="slide_image" className='w-[55rem] h-[42rem] border-2 object-cover'/>
         </SwiperSlide> */}
         <SwiperSlide>
-          <img src={slide_image_3} alt="slide_image" className='w-[37rem] h-[42rem] border-2 object-cover p-10'/>
+        <Template1 />
         </SwiperSlide>
         {/* <SwiperSlide>
           <img src={slide_image_4} alt="slide_image" className='w-[37rem] h-[42rem] border-2 object-cover'/>

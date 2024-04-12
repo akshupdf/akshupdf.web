@@ -9,10 +9,10 @@ function Nav () {
 
 
     return(
-        <div>
+        <div  className='sticky top-0 z-10  backdrop-filter backdrop-blur-lg bg-opacity-30'>
             
 <nav
-        className="flex items-center ml-0 flex-wrap bg-white py-4 lg:px-12   ">
+        className="flex items-center ml-0 flex-wrap py-4 lg:px-12   backdrop-blur-xl">
         <div className="flex justify-between lg:w-auto w-full  pl-6 pr-2  pb-5 lg:pb-0">
             <div className="flex items-center flex-shrink-0 text-gray-800 mr-16">
                 
@@ -31,7 +31,7 @@ function Nav () {
     
         <div className="menu w-full lg:block flex-grow  lg:items-center lg:w-auto lg:px-3 px-8">
         {
-            show && <div className="text-md font-bold  lg:flex-grow text-right fixed bg-black text-white p-4">
+            show && <div className="text-xl font-bold  lg:flex-grow text-right fixed bg-black text-white p-4">
                 {/* <a href="/"
                    className="block mt-4 lg:inline-block lg:mt-0 mr-2">
                     Home
@@ -56,7 +56,7 @@ function Nav () {
             </div>
         }
             <div className='lg:flex sm:hidden'>
-            <div className="text-md font-bold text-black lg:flex-grow text-right">
+            <div className="text-xl font-bold text-black lg:flex-grow text-right">
                 {/* <a href="/"
                    className="block mt-4 lg:inline-block lg:mt-0 hover:text-white px-4 py-2 rounded hover:bg-black mr-2">
                     Home
