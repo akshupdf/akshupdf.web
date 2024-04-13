@@ -28,19 +28,19 @@ function Home() {
   return (
     <div style={{backgroundImage : `url(https://d91ztqmtx7u1k.cloudfront.net/ClientContent/Images/Catalogue/599a03f7-f330-4177-8353-290de0394dde.png)`}} className="bg-fixed">
       <div className="lg:flex sm:flex-wrap">
-        <div className="w-[40%] m-auto">
+        <div className="lg:w-[40%] m-auto">
       
-          <h1 className="text-4xl italic text-right mb-10  font-bold">
+          <h1 className="text-4xl italic lg:text-right mb-10 sm:p-2  font-bold">
     
             Elevate Your Online Presence!  </h1>
 
-            <p className=" text-right text-2xl mx-auto mb-10 italic  indent-8" >Welcome to <span className=" font-bold">Akshupdf.web</span>, where students and professionals can effortlessly
+            <p className=" lg:text-right sm:p-2 text-2xl mx-auto mb-10 italic  indent-8" >Welcome to <span className=" font-bold">Akshupdf.web</span>, where students and professionals can effortlessly
              showcase projects and experiences on one captivating page. Join us today and stand out 
              with your personalized bio website!</p>
          
         </div>
         {/* <div className='w-[60vh] h-[60vh] justify-center  mx-auto text-xl p-10 rounded-xl italic mt-10 bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 cursor-pointer'> */}
-        <div className="lg:w-[100vh] lg:h-[80vh] sm:w-50 sm:h-auto justify-center  mx-auto text-xl p-10 rounded-xl italic cursor-pointer">
+        <div className="lg:w-[100vh] lg:h-[80vh] sm:w-50 sm:h-80 justify-center  mx-auto text-xl lg:p-10 rounded-xl italic cursor-pointer">
           <Canvas camera={{ position: [6, 4, 5], fov: 10 }}>
             <ambientLight intensity={0.5} />
 

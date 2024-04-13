@@ -6,7 +6,9 @@ import { Link } from "react-router-dom"
 function Nav () {
     const [show, setShow] = useState(false)
     const toggleChecked = () => setShow((value) => !value);
-
+    const clicked = () => {
+        setShow(false)
+    }
 
     return(
         <div  className='sticky top-0 z-10  backdrop-filter backdrop-blur-lg bg-opacity-30'>
@@ -37,10 +39,10 @@ function Nav () {
                     Home
                 </a> */}
 
-                <Link to="/" className="block mt-4 lg:inline-block lg:mt-0 mr-2">Home</Link>
-                <Link to="/pricing" className="block mt-4 lg:inline-block lg:mt-0 mr-2">Pricings</Link>
-                <Link to="/about" className="block mt-4 lg:inline-block lg:mt-0 mr-2">About Us</Link>
-                <Link to="/contact" className="block mt-4 lg:inline-block lg:mt-0 mr-2">Contact Us</Link>
+                <Link to="/" className="block mt-4 lg:inline-block lg:mt-0 mr-2"  onClick={clicked}>Home</Link>
+                <Link to="/pricing" className="block mt-4 lg:inline-block lg:mt-0 mr-2" onClick={clicked}>Pricings</Link>
+                <Link to="/about" className="block mt-4 lg:inline-block lg:mt-0 mr-2" onClick={clicked}>About Us</Link>
+                <Link to="/contact" className="block mt-4 lg:inline-block lg:mt-0 mr-2" onClick={clicked}>Contact Us</Link>
                 {/* <a href="/pricing"
                    className=" block mt-4 lg:inline-block lg:mt-0 mr-2">
                     Pricings
